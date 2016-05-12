@@ -1,0 +1,184 @@
+body {
+  position: relative;
+  background: #ABAAAD;
+  /*font-family: 'Titillium Web', sans-serif;*/
+  /*#88878A*/
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+#splash {
+  background: #6D6D6E;
+  height: 700px;
+  margin: 0;
+  padding: 0;
+}
+
+#overlay {
+  height: 100%;
+  width: 100%;
+}
+
+#overlay-content {
+  color: #fff;
+  position: relative;
+    top: 50%;
+  transform: translateY(-50%);
+}
+
+#overlay-content img {
+  padding: 20px;
+  height: 250px;
+  width: 250px;
+  border-radius: 125px;
+}
+
+.navbar {
+  border-radius: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.affix {
+  top: 0;
+}
+
+.affix + .container {
+  padding-top: 70px;
+}
+
+#portfolio, #contact, #upcoming, footer {
+  padding-top: 50px;
+}
+
+#kyle-chakos {
+  height: 200px;
+  width: 400px;
+  padding: 5px;
+  background: url('../img/kyle-chakos.jpg') center no-repeat;
+  background-size: cover;
+  margin-top: 40px;
+}
+
+#universal-mirror {
+  height: 200px;
+  width: 400px;
+  padding: 5px;
+  background: url('../img/universal-mirror.jpg') center no-repeat;
+  background-size: cover;
+  margin-top: 40px;
+}
+
+#sartres-list {
+  height: 200px;
+  width: 400px;
+  padding: 5px;
+  background: url('../img/sartres-list.jpg') center no-repeat;
+  background-size: cover;
+  margin-top: 40px;
+}
+
+#chefmate {
+  height: 200px;
+  width: 400px;
+  padding: 5px;
+  background: url('../img/chefmate.jpg') center no-repeat;
+  background-size: cover;
+  margin-top: 40px;
+}
+
+#pirate-radio-nyc {
+  height: 300px;
+  width: 300px;
+  background: url('../img/pirate-radio-nyc.jpg') center no-repeat;
+  background-size: cover;
+  margin-top: 40px;
+}
+
+#corinne-day {
+  height: 300px;
+  width: 300px;
+  background: url('../img/corinne-day.jpg') center no-repeat;
+  background-size: cover;
+  margin-top: 40px;
+}
+
+.description {
+  background: rgba(0,0,0,0.8);
+  color: #fff;
+  height: 200px;
+  width: 400px;
+  position: relative;
+  left: -5px;
+  top: -25px;
+  display: none;
+}
+
+.description h3, .description p {
+  position: relative;
+  text-align: center;
+  top: 25%;
+}
+
+.description-upcoming {
+  background: rgba(0,0,0,0.8);
+  color: #fff;
+  height: 300px;
+  width: 300px;
+  position: relative;
+  left: -15px;
+  top: -20px;
+  display: none;
+}
+
+.description-upcoming h3, .description-upcoming p {
+  position: relative;
+  text-align: center;
+  top: 25%;
+  padding: 5px;
+}
+
+#contact p {
+  padding-top: 15px;
+}
+
+form {
+  padding-top: 30px;
+}
+
+.social {
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+#facebook {
+  background: url('../img/facebook.jpg');
+  background-size: contain;
+}
+
+#linkedin {
+  background: url('../img/linkedin.jpg');
+  background-size: contain;
+}
+
+#instagram {
+  background: url('../img/instagram.jpg');
+  background-size: contain;
+}
+
+#github {
+  background: url('../img/github.jpg');
+  background-size: contain;
+}
